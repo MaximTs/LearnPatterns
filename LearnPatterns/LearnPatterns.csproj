@@ -44,6 +44,11 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strategy\VostokDocumentCreator.cs" />
+    <Compile Include="Strategy\Document.cs" />
+    <Compile Include="Strategy\IDocumentCreator.cs" />
+    <Compile Include="Strategy\StrategyService.cs" />
+    <Compile Include="Strategy\VodafoneDocumentCreator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
